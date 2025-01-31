@@ -34,7 +34,7 @@
 body {
   font-size: 1.1rem;
   color: black;
-  background-color: white;
+  background-color: #e5e5e5;
 }
 
 /*---------------
@@ -69,8 +69,13 @@ body {
   border: none;
   font-size: 1.4rem;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .accordion__title:hover {
-  background-color: yellow;
+  background-color: #ffc008;
+}
+
+.title-col {
+  background-color: #ffc008;
 }
