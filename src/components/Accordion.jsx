@@ -8,7 +8,7 @@ export default function Accordion({ title, description }) {
   };
   return (
     <div className="accordion">
-      <div className="accordion__title">
+      <div className={`accordion__title ${isOpen ? "title-col" : ""}`}>
         <h3>{title}</h3>
         <button className="accordion__btn" onClick={toggleAccordion}>
           {isOpen ? "-" : "+"}
